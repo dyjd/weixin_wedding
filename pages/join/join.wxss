@@ -1,0 +1,101 @@
+/* pages/join/join.wxss */
+
+.title-img {
+  height: 274rpx;
+  width: 100%;
+}
+
+.title-img image {
+  width: 100%;
+  height: 100%;
+}
+
+.body1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.body1-box {
+  margin-top: 50px;
+  color: #827a7a;
+  line-height: 25px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.phap {
+  margin-top: 60rpx;
+}
+
+.zhi {
+  padding-left: 50px;
+}
+
+.body2-box {
+  margin-top: 160rpx;
+  font-size: 15px;
+}
+
+.xihuan {
+  font-size: 36px;
+}
+
+.body3-box {
+  color: #827a7a;
+  margin-top: 160rpx;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.15em;
+  margin-bottom: 100rpx;
+}
+.body3-box image {
+  width:220px;
+  height: 72rpx
+}
+.shejishi-title{
+      font-size: 16px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.body3-footer{
+  margin-top: 160rpx;
+    font-size: 15px;
+    line-height: 26px;
+}
+.body3-footers{
+  margin-bottom: 60rpx;
+}
+.footer{
+      margin-top: 20px;
+}
+.footer-container{
+      margin: 0;
+    padding: 0;
+}
+.footer-text1{
+  height: 52rpx;
+}
+.footer-text1 image{
+  width: 50%;
+  height: 100%;
+}
+.footer-text2{
+  background-color: #960407;
+    padding: 15px;
+    height: 266rpx;
+}
+.footer-text2 image{
+  width: 100%;
+  height: 100%;
+}
+

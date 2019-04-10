@@ -1,0 +1,49 @@
+{
+  "pages":[
+    
+    "pages/homePage/homePage",
+    "pages/join/join",
+    "pages/visit/visit",
+    "pages/yun/yun",
+    "pages/ditu/ditu",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#960407",
+    "navigationBarTitleText": "成都DoDo婚礼",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor":"#960407",
+    "color": "#808080",
+    "selectedColor": "#ffffff",
+    "list": [
+      
+      {
+        "pagePath": "pages/homePage/homePage",
+        "text": "首页",
+        "iconPath":"img/a1.jpg",
+        "selectedIconPath": "img/a1.jpg"
+        
+      },
+      {
+        "pagePath": "pages/visit/visit",
+        "text": "到访DoDo",
+        "iconPath": "img/b1.png",
+          "selectedIconPath": "img/b1.png"
+          
+      },
+      {
+        "pagePath": "pages/join/join",
+        "text": "加入DoDo",
+        "iconPath":"img/c1.png",
+          "selectedIconPath": "img/c1.png"
+         
+        
+      }
+    ]
+  }
+}

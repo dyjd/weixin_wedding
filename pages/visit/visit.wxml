@@ -1,0 +1,99 @@
+<!--pages/visit/visit.wxml-->
+<view class='title-img'>
+  <image src='http://www.77dodo.com/Content/banner/77dodo-about.jpg'></image>
+</view>
+<view class='container1'>
+  <view class='cont'>
+    <view class='qidai'>
+      <text class='qidai-text'>期待</text>
+      <text> 您到访DoDo婚礼，</text>
+      <view>
+        <text>DoDo的主创将与您一对一充分沟通，</text>
+      </view>
+      <view>
+        <text>建议提前通过微信、电话预约到访时间。</text>
+      </view>
+    </view>
+    <view class='yingye'>
+      <view>
+        <text> 营业时间：10:30—18:00</text>
+      </view>
+      <view>
+        <text>周末、节假日不休。</text>
+      </view>
+      <view>
+        <text>支持非正常工作时间到访（如晚间），</text>
+      </view>
+      <view>
+        <text>请务必提前预约。</text>
+      </view>
+    </view>
+    <view class='dingwei-pic'>
+      <image src='http://www.77dodo.com/Content/imgs/icon-here.png'></image>
+    </view>
+    <view class='dizhi'>
+      <view>
+        <text>成都武侯区锦绣路1号保利中心C座7楼720</text>
+      </view>
+      <view>
+        <text>（南二环路内，临近美国领事馆）
+        </text>
+      </view>
+    </view>
+    <view class='dingwei-pic'>
+      <image src='http://www.77dodo.com/Content/imgs/icon-tel.png'></image>
+    </view>
+    <view class='phone'>
+      <text>028-85928200</text>
+    </view>
+    <view class='dingwei-pic'>
+      <image src='http://www.77dodo.com/Content/imgs/icon-weixing.png'></image>
+    </view>
+    <view class='phone'>
+      <text>13882067106</text>
+      <text class='weixin'>（微信客服）</text>
+    </view>
+    <view class='erweima'>
+      <image src='http://www.77dodo.com/Content/images/weixi-1.jpg'></image>
+      <view>
+        <text>微信客服</text>
+      </view>
+    </view>
+  </view>
+  <view class='ditu'><image src='../../img/ditu.jpg'></image></view>
+  <view class='ditie'>
+    <view class='ditie-text'>
+      <text>地铁1号线“倪家桥”地铁站C出口。 </text>
+    </view>
+    <view class='ditie-text1'>
+      <text>（向科华北路方向步行约350米后，成都银行旁的通道进入，可达保利中心C座电梯入口） </text>
+    </view>
+    <view class='tingche'>
+      <text class='tingche-title'>停车引导：</text>
+      <view class='tingche-view'>
+        <view>
+          <text class='tingche-text1'>1、保利中心楼下地面正规停车场。</text>
+          <text class='tingche-text2'>（周末、节假日车位充足、方便）</text>
+        </view>
+        <view>
+          <text class='tingche-text1'>2、保利中心C座、A座大楼背后的棕南巷，保利中心配套地下停车场。</text>
+          <text class='tingche-text2'>（车位充裕，上班高峰停车场电梯等待时间较长，C座=1栋，停车场电梯直达DoDo所在的7楼）</text>
+        </view>
+        <view>
+          <text class='tingche-text1'>3、保利中心A座旁“棕北停车大楼”立体停车场。</text>
+          <text class='tingche-text2'>（步行200米到达C座电梯口）</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+ <view class='footer'>
+    <view class='footer-container'>
+      <view class='footer-text1'>
+        <image src="http://www.77dodo.com/Content/imgs/bg-text-1.png"></image>
+      </view>
+      <view class='footer-text2'>
+        <image src="http://www.77dodo.com/Content/imgs/bg-text-2.png"></image>
+      </view>
+     </view>
+  </view>

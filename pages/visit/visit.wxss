@@ -1,0 +1,161 @@
+/* pages/visit/visit.wxss */
+
+.title-img {
+  height: 274rpx;
+  width: 100%;
+}
+
+.title-img image {
+  width: 100%;
+  height: 100%;
+}
+
+.container1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cont {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.qidai {
+  width: 690rpx;
+  height: 232rpx;
+  margin-top: 50px;
+  color: #717171;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.15em;
+  margin-bottom: 0;
+}
+
+.qidai-text {
+  font-size: 36px;
+}
+
+.yingye {
+  width: 690rpx;
+  height: 288rpx;
+  margin-top: 50px;
+  color: #717171;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.15em;
+  margin-bottom: 0;
+}
+
+.dingwei-pic {
+  height: 200rpx;
+  margin-top: 120rpx;
+}
+
+.dingwei-pic image {
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.dizhi {
+  margin-top: 60rpx;
+  height: 144rpx;
+  letter-spacing: 0.1em;
+  color: #717171;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.phone {
+  margin-top: 60rpx;
+  color: #717171;
+  font-size: 30px;
+}
+
+.weixin {
+  font-size: 22px;
+}
+
+.erweima {
+  margin-top: 120rpxpx;
+}
+
+.erweima image {
+  width: 256rpx;
+  height: 256rpx;
+}
+
+.ditu {
+  margin-top: 40rpx;
+  height: 400rpx;
+  width: 100%;
+  background-color: rosybrown;
+}
+.ditu image{
+  width: 100%;
+  height: 100%;
+}
+
+.ditie {
+  text-align: center;
+  color: #717171;
+}
+
+.ditie-text {
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.ditie-text1 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.tingche {
+  padding-top: 20px;
+  text-align: left;
+  line-height: 25px;
+  color: #717171;
+}
+
+.tingche-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tingche-view {
+  margin-top: 10px;
+}
+
+.tingche-text1 {
+  font-size: 14px;
+}
+
+.tingche-text2 {
+  font-size: 12px;
+}
+.footer{
+      margin-top: 20px;
+}
+.footer-container{
+      margin: 0;
+    padding: 0;
+}
+.footer-text1{
+  height: 52rpx;
+}
+.footer-text1 image{
+  width: 50%;
+  height: 100%;
+}
+.footer-text2{
+  background-color: #960407;
+    padding: 15px;
+    height: 266rpx;
+}
+.footer-text2 image{
+  width: 100%;
+  height: 100%;
+}
+

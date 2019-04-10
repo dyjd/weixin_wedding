@@ -1,0 +1,158 @@
+<!--pages/yun/yun.wxml-->
+<view class='bak'>
+  <view class='title'>
+    <view class='title-view'>
+      <image src='http://www.77dodo.com/Content/imgs/title-works.svg'></image>
+    </view>
+  </view>
+  <view class='body'>
+    <view class='body-title'>
+      <text> 首页 - 婚礼作品 -《云梦瑶》</text>
+    </view>
+  </view>
+  <view class='pingjia'>
+    <view class='pingjia-img'>
+      <image src='http://www.77dodo.com/Content/imgs/bg-video-text-top.svg'></image>
+    </view>
+    <view class='pingjia-vidio'>
+      <video id="myVideo" src="http://www.77dodo.com//Content/video/77dodo-video-2.mp4"></video>
+    </view>
+  </view>
+  <view class='yun body'>
+    <view class='yun-red'>
+      <view class='yun-red-title-box'>
+        <text>《云梦瑶》</text>
+      </view>
+      <view class='yun-red-neirong-box'>
+        <view>
+          <text>成都麓湖</text>
+        </view>
+        <view>
+          <text>户外草坪婚礼</text>
+        </view>
+        <view>
+          <text>较高预算婚礼</text>
+        </view>
+      </view>
+    </view>
+    <view class='yun-hui'>
+      <view class='yun-hui-title-box'>
+        <text>《云梦瑶》</text>
+      </view>
+      <block wx:for="{{yunhui}}">
+        <view class='yun-hui'>
+          <view>
+            <text>{{item.d1}}</text>
+          </view>
+          <view>
+            <text>{{item.d2}}</text>
+          </view>
+          <view>
+            <text>{{item.d3}}</text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class='body pic-view'>
+    <block wx:for="{{pic}}">
+      <view class='pic-box'>
+        <image src='{{item}}'></image>
+      </view>
+    </block>
+    <view class='pic-mido'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614063088.jpg'></image>
+    </view>
+    <view class='pic-box'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614033532.jpg'></image>
+    </view>
+    <view class='pic-mido'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614033664.jpg'></image>
+    </view>
+    <view class='pic-mido417'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614080676.jpg'></image>
+    </view>
+    <view class='pic-mido200'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614080766.jpg'></image>
+    </view>
+    <block wx:for="{{pic465}}">
+      <view class='pic-box465'>
+        <image src='{{item}}'></image>
+      </view>
+    </block>
+    <view class='pic-mido171'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614115049.jpg'></image>
+    </view>
+    <view class='pic-mido390'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614115100.jpg'></image>
+    </view>
+    <view class='pic-mido461'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614115192.jpg'></image>
+    </view>
+    <block wx:for="{{pic451}}">
+      <view class='pic-mido450'>
+        <image src='{{item}}'></image>
+      </view>
+    </block>
+    <block wx:for="{{pic230}}">
+      <view class='pic-box'>
+        <image src='{{item}}'></image>
+      </view>
+    </block>
+    <view class='pic-mido381'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614130601.jpg'></image>
+    </view>
+
+    <view class='pic-mido246'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614130654.jpg'></image>
+    </view>
+    <view class='pic-mido495'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614130801.jpg'></image>
+    </view>
+    <view class='pic-box'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614130865.jpg'></image>
+    </view>
+    <view class='pic-mido714'>
+      <image src='http://www.77dodo.com/Upload/image/201806/0614130960.jpg'></image>
+    </view>
+  </view>
+  <view class='hehe'>
+    <view class='hehe-bigview'>
+      <block wx:for="{{hehedata}}">
+        <view class='hehe-box'>
+          <view class='hehe-view'>
+            <view class='hehe-title'>
+              <text>{{item.title}}</text>
+            </view>
+            <view class='hehe-dizhi'>
+              <text>{{item.dizhi}}</text>
+              <text>{{item.yusuan}}</text>
+            </view>
+            <view class='hehe-img'>
+              <image src='{{item.img}}'></image>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+    <view class='hehe-footer'>
+      <view class='hehe-footer-img'>
+        <image src='http://www.77dodo.com/Content/imgs/title-wedding.svg'></image>
+      </view>
+      <view class='hehe-footer-text'>
+        <text>试试看一眼你和他(她)88岁的模样？</text>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <view class='footer-container'>
+      <view class='footer-text1'>
+        <image src="http://www.77dodo.com/Content/imgs/bg-text-1.png"></image>
+      </view>
+      <view class='footer-text2'>
+        <image src="http://www.77dodo.com/Content/imgs/bg-text-2.png"></image>
+      </view>
+     </view>
+  </view>
+
+</view>

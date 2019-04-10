@@ -1,0 +1,78 @@
+<!--pages/join/join.wxml-->
+<view class='title-img'>
+  <image src='http://www.77dodo.com/Content/banner/77dodo-joinus.jpg'></image>
+</view>
+<view class='body1'>
+    <view class='body1-box'>
+      <view class='title'>
+        <text>《在路上》</text>
+      </view>
+      <view class='phap'>
+        <view><text>走了好远的路，慢不下脚步，</text></view>
+        <view><text>看过好多的景，宠辱都不惊。 </text></view>
+      </view>
+      <view class='phap'>
+        <view><text>不遵循别人脚印，只在意脚步轻盈，</text></view>
+        <view><text>不怕走失了方向，只顾朝向着太阳。 </text></view>
+      </view>
+      <view class='phap'>
+        <view><text>一路拾得好多伙伴，多欢喜，</text></view>
+        <view><text>我们爱琢磨一切与美好有关的东西， </text></view>
+        <view><text>愿把喜欢抱个满怀，苦的泪都流给小溪，</text></view>
+        <view><text>溪水也漫不过欢喜， </text></view>
+         <view><text> 只因瞧见的幸福不停，留下的美好在心。 </text></view>
+      </view>
+      <view class='phap'>
+        <view><text> 总有一个人走在最前，轻声的吟：</text></view>
+        <view><text> 若不绚烂，花儿就谢了， </text></view>
+        <view><text> 再不圆梦，我们就老啦… … </text></view>
+      </view>
+      <view class='phap zhi'>
+        <view><text> ——致DoDo现在和未来的小伙伴，共勉。</text></view>
+      </view>
+    </view>
+    <view class='body1-box body2-box'>
+        <view class='phap'>
+          <text class='xihuan'>喜欢</text>
+          <text>一切与美好有关的事物，</text>
+          <view><text>勤奋好学，积极阳光，涉猎广泛，适合来DoDo。</text></view>
+        </view>
+        <view class='phap'>
+          <view><text>婚礼人过着辛苦的美妙生活，</text></view>
+          <view><text>如果这恰恰是你热爱的职业，</text></view>
+          <view><text>则不再是工作，</text></view>
+          <view><text>而是为你生活的一部分。</text></view>
+        </view>
+    </view>
+    <view class='body3-box'>
+      <image src='http://www.77dodo.com/Content/imgs/title-jounus.svg'></image>
+      <view class='shejishi'>
+        <block wx:for="{{infos}}">
+         <view class='shejishi-title'>{{item.title}}</view>
+          <view><text>{{item.h1}}</text></view>
+          <view><text>{{item.h2}}</text></view>
+          <view><text>{{item.h3}}</text></view>
+          <view><text>{{item.h4}}</text></view>
+          <view><text>{{item.h5}}</text></view>
+          <view><text>{{item.h6}}</text></view>
+        </block>
+      </view>
+      <view class='body3-footer'>
+        <block wx:for="{{infors1}}">        
+          <view><text>{{item.h1}}</text></view>
+          <view><text>{{item.h2}}</text></view>
+          <view class='body3-footers'><text>{{item.h3}}</text></view>
+        </block>
+      </view>
+    </view>
+</view>
+<view class='footer'>
+    <view class='footer-container'>
+      <view class='footer-text1'>
+        <image src="http://www.77dodo.com/Content/imgs/bg-text-1.png"></image>
+      </view>
+      <view class='footer-text2'>
+        <image src="http://www.77dodo.com/Content/imgs/bg-text-2.png"></image>
+      </view>
+     </view>
+  </view>

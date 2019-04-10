@@ -1,0 +1,150 @@
+/* pages/homePage/homePage.wxss */
+.lunbo{
+  width: 100%;
+  height: 274rpx;
+}
+.lunbo image{
+  width: 100%;
+  height: 100%;
+}
+.body1 .main{
+  width: 670rpx;
+  height: 810rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-top: 80rpx;
+  /* background-color: rebeccapurple;  */
+}
+.work{
+ width: 670rpx;
+ height: 748rpx;
+ padding-bottom: 100rpx;
+ border-bottom: 1px solid #513b3b;
+}
+.work-word{
+  width: 670rpx;
+  height:278rpx;
+  padding-bottom: 10px;
+  color:#990003; 
+
+}
+.word-biaoti{
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 0 -10px;
+  padding: 0;
+}
+.word-neirong-view{
+  width: 670rpx;
+  height: 160rpx;
+  padding: 20rpx 0;
+  padding-bottom: 10rpx;
+  line-height: 16px;
+  text-indent: 2em;
+}
+.word-neirong{  
+  color: #666;
+  font-size: 14px;
+}
+.word-yusuan-view{
+  font-size: 14px;
+  text-indent: 2em;
+}
+.word-dizhi{
+  float: left;
+  text-indent: 0em;
+}
+.work-img{
+  width: 670rpx;
+  height:456rpx;
+}
+.imgs{
+  border: 1px solid #990003;
+  background-color: #fff;
+  padding: 1px;
+  width: 100%;
+ 
+}
+.gengduo{
+  width: 670rpx;
+  height:72rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  background-color: #d43f3a;
+  display: flex;
+  margin-top: 20px;
+  line-height: 72rpx;
+  
+}
+.genduo-text{
+ width: 400rpx;
+  height:72rpx;
+  color: white;
+ font-size: 16px;
+ text-align: right;
+  margin-right: 10rpx;
+}
+.genduo-img{
+ width: 260rpx;
+  height:72rpx;
+  float: right
+}
+.gengduo-imgsrc{
+width: 28rpx;
+height: 30rpx;
+}
+.pingjia{
+   margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-top: 40rpx;
+}
+.pingjia-img{
+  padding: 40rpx;
+  height: 228rpx;
+}
+.pingjia-img image{
+  width: 100%;
+  height: 100%;
+}
+.pingjia-vidio{
+  height: 377rpx;
+  width: 670rpx;
+}
+#myVideo{
+  width: 100%;
+  height: 100%;
+}
+.footer{
+      margin-top: 20px;
+}
+.footer-container{
+      margin: 0;
+    padding: 0;
+}
+.footer-text1{
+  height: 52rpx;
+}
+.footer-text1 image{
+  width: 50%;
+  height: 100%;
+}
+.footer-text2{
+  background-color: #960407;
+    padding: 15px;
+    height: 266rpx;
+}
+.footer-text2 image{
+  width: 100%;
+  height: 100%;
+}
+.footer-address{
+      line-height: 25px;
+    padding: 20px 0;
+    color: #990003;
+    background-color: #d59b9c;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer-address-view{
+    padding-left: 15px;
+}

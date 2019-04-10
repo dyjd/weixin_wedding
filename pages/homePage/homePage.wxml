@@ -1,0 +1,73 @@
+<!--pages/homePage/homePage.wxml-->
+<view class='lunbo'>
+  <swiper indicator-dots='true' indicator-active-color='white' autoplay='true' interval='5000'>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src='{{item}}'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='body1' >
+  <block wx:for="{{bodys}}">
+    <view class='main'>
+      <view class='work'>
+        <view class='work-word'>
+          <text class='word-biaoti'>{{item.biaoti}}</text>
+          <view class='word-neirong-view' bindtap='jump'>
+            <text class='word-neirong'>{{item.neirong}}</text>
+          </view>
+          <view class='word-yusuan-view'>
+            <text class='word-dizhi'>{{item.dizhi}}</text>
+            <text class='word-yusuan' space='nbsp'>{{item.yusuan}}</text>
+          </view>
+        </view>
+        <view class='work-img' bindtap='jump'>
+          <image src='{{item.imgs}}' class='imgs'></image>
+        </view>
+      </view>
+    </view>
+  </block>
+  <view class='gengduo'>
+    <view class='genduo-text' bindtap='onClick'>
+      <text>更多作品</text>
+    </view>
+    <view class='genduo-img'>
+      <image src='http://www.77dodo.com//Content/imgs/ico-arre-b.png' class='gengduo-imgsrc'></image>
+    </view>
+  </view>
+  <view class='pingjia'>
+    <view class='pingjia-img'>
+      <image src='http://www.77dodo.com/Content/imgs/bg-video-text-top.svg'></image>
+    </view>
+    <view class='pingjia-vidio'>
+      <video id="myVideo" src="http://www.77dodo.com//Content/video/77dodo-video-2.mp4"></video>
+    </view>
+  </view>
+  <view class='footer'>
+    <view class='footer-container'>
+      <view class='footer-text1'>
+        <image src="http://www.77dodo.com/Content/imgs/bg-text-1.png"></image>
+      </view>
+      <view class='footer-text2'>
+        <image src="http://www.77dodo.com/Content/imgs/bg-text-2.png"></image>
+      </view>
+     </view>
+  </view>
+  <!-- <view class='footer-address'>
+    <view class='footer-address-view'>
+      <view>    
+       <text>到访DoDo 请提前预约,</text>
+      </view>
+      <view>    
+       <text>DoDo婚庆公司的主创将与您一对一充分交流。</text>
+      </view>
+      <view >    
+       <text>成都武侯区锦绣路1号保利中心C座7楼720号 </text>
+      </view>
+      <view>    
+       <text> (028)85928200  13882067106(微信同号)</text>
+      </view>
+    </view>
+  </view> -->
+</view>
